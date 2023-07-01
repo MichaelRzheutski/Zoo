@@ -1,6 +1,6 @@
 package positiveTests.animalsTests;
 
-import org.belhard.animals.Lion;
+import academy.belhard.animals.Lion;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="positiveTests">
+    <groups>
+        <run>
+            <include name="positive"/>
+        </run>
+    </groups>
+
+    <!-- animalTests -->
+    <test name="TigerTest">
+        <classes>
+            <class name="positiveTests.animalsTests.TigerTest"/>
+        </classes>
+    </test>
+    <test name="LionTest">
+        <classes>
+            <class name="positiveTests.animalsTests.LionTest"/>
+        </classes>
+    </test>
+    <test name="PantherTest">
+        <classes>
+            <class name="positiveTests.animalsTests.PantherTest"/>
+        </classes>
+    </test>
+
+    <!-- BirdsTests -->
+    <test name="ParrotTest">
+        <classes>
+            <class name="positiveTests.birdsTests.ParrotTest"/>
+        </classes>
+    </test>
+    <test name="ColibriTest">
+        <classes>
+            <class name="positiveTests.birdsTests.ColibriTest"/>
+        </classes>
+    </test>
+    <test name="SparrowTest">
+        <classes>
+            <class name="positiveTests.birdsTests.SparrowTest"/>
+        </classes>
+    </test>
+
+    <!-- fishTests -->
+    <test name="SharkTest">
+        <classes>
+            <class name="positiveTests.fishesTests.SharkTest"/>
+        </classes>
+    </test>
+    <test name="WhaleTest">
+        <classes>
+            <class name="positiveTests.fishesTests.WhaleTest"/>
+        </classes>
+    </test>
+    <test name="SwordFishTest">
+        <classes>
+            <class name="positiveTests.fishesTests.SwordFishTest"/>
+        </classes>
+    </test>
+
+    <!-- mainMethodsTests -->
+    <test name="ShowAnimalTest">
+        <classes>
+            <class name="positiveTests.mainMethodsTests.ShowAnimalTest"/>
+        </classes>
+    </test>
+    <test name="ShowFishTest">
+        <classes>
+            <class name="positiveTests.mainMethodsTests.ShowFishTest"/>
+        </classes>
+    </test>
+    <test name="ShowBirdTest">
+        <classes>
+            <class name="positiveTests.mainMethodsTests.ShowBirdTest"/>
+        </classes>
+    </test>
+    <test name="ShowAllAnimalsTest">
+        <classes>
+            <class name="positiveTests.mainMethodsTests.ShowAllAnimalsTest"/>
+        </classes>
+    </test>
+    <test name="ShowAllBirdsTest">
+        <classes>
+            <class name="positiveTests.mainMethodsTests.ShowAllBirdsTest"/>
+        </classes>
+    </test>
+    <test name="ShowAllFishesTest">
+        <classes>
+            <class name="positiveTests.mainMethodsTests.ShowAllFishesTest"/>
+        </classes>
+    </test>
+</suite>
+
+
+
+
+
